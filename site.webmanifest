@@ -1,6 +1,6 @@
 {
-  "name": "SnapSwapp",
-  "short_name": "SnapSwapp",
+  "name": "ClickSwapp",
+  "short_name": "ClickSwapp",
   "icons": [
     {
       "src": "./web-app-manifest-192x192.png",
