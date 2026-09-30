@@ -6,9 +6,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;700&display=swap"
-      rel="stylesheet"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;700&display=swap"
+      />
+    </noscript>
     <!-- Basic SEO meta tags -->
     <title>ClickSwapp: An Antisocial Photo Network. No Filters, No Ads</title>
     <meta
@@ -97,8 +105,8 @@
         .addEventListener("change", updateFavicons);
     </script>
 
-    <script type="module" crossorigin src="/assets/index-CRv3ppHP.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-dq8vLSn1.css">
+    <script type="module" crossorigin src="/assets/index-dKyMKVuN.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-EX7SJz4w.css">
   </head>
   <body>
     <div class="wrapper">
@@ -108,34 +116,42 @@
           <img
             src="/assets/image1-CBkNq7Km.webp"
             class="header__sticker sticker sticker-1"
+            alt="Angel wings sticker"
           />
           <img
             src="data:image/webp;base64,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"
             class="header__sticker sticker sticker-2"
+            alt="Broken heart sticker"
           />
           <img
             src="/assets/image3-Cv8_5h4k.webp"
             class="header__sticker sticker sticker-3"
+            alt="Globe with band-aid sticker"
           />
           <img
             src="/assets/image4-uIBLQAgh.webp"
             class="header__sticker sticker sticker-4"
+            alt="Spray paint can sticker"
           />
           <img
             src="/assets/image5-DLeXICCh.webp"
             class="header__sticker sticker sticker-5"
+            alt="Grunge cat face sticker"
           />
           <img
             src="/assets/image6-DKupOU7o.webp"
             class="header__sticker sticker sticker-6"
+            alt="Retro woman sticker"
           />
           <img
             src="/assets/image7-D1od1t-G.webp"
             class="header__sticker sticker sticker-7"
+            alt="Swap arrows with crown sticker"
           />
           <img
             src="/assets/image8-C07ZRQmo.webp"
             class="header__sticker sticker sticker-8"
+            alt="Devil face sticker"
           />
         </div>
         <h1 class="header__title">
@@ -149,21 +165,21 @@
       <main class="main">
         <img src="/assets/hand-CZE0wV2a.webp" alt="Hand with phone" class="hand" />
         <article class="gallery" id="gallery">
-          <img class="gallery__image" src="/assets/1-wzBgKyrI.webp" />
-          <img class="gallery__image" src="/assets/2-BaD4ofUd.webp" />
-          <img class="gallery__image" src="/assets/3-BnqqD9_6.webp" />
-          <img class="gallery__image" src="/assets/4-DBxhYDnU.webp" />
-          <img class="gallery__image" src="/assets/5-DT68fwA1.webp" />
-          <img class="gallery__image" src="/assets/6-DwYtDMmS.webp" />
-          <img class="gallery__image" src="/assets/7-qSina8aZ.webp" />
-          <img class="gallery__image" src="/assets/8-CD0CaFxV.webp" />
-          <img class="gallery__image" src="/assets/9-ggboX8Tl.webp" />
-          <img class="gallery__image" src="/assets/10-WYE1Kc9_.webp" />
-          <img class="gallery__image" src="/assets/11-DYc0grRr.webp" />
-          <img class="gallery__image" src="/assets/12-B-51DjsS.webp" />
-          <img class="gallery__image" src="/assets/13-CuBkPjE5.webp" />
-          <img class="gallery__image" src="/assets/14-BfDi3du4.webp" />
-          <img class="gallery__image" src="/assets/15-oGBu1vhy.webp" />
+          <img class="gallery__image" src="/assets/1-wzBgKyrI.webp" alt="" />
+          <img class="gallery__image" src="/assets/2-BaD4ofUd.webp" alt="" />
+          <img class="gallery__image" src="/assets/3-BnqqD9_6.webp" alt="" />
+          <img class="gallery__image" src="/assets/4-DBxhYDnU.webp" alt="" />
+          <img class="gallery__image" src="/assets/5-DT68fwA1.webp" alt="" />
+          <img class="gallery__image" src="/assets/6-DwYtDMmS.webp" alt="" />
+          <img class="gallery__image" src="/assets/7-qSina8aZ.webp" alt="" />
+          <img class="gallery__image" src="/assets/8-CD0CaFxV.webp" alt="" />
+          <img class="gallery__image" src="/assets/9-ggboX8Tl.webp" alt="" />
+          <img class="gallery__image" src="/assets/10-WYE1Kc9_.webp" alt="" />
+          <img class="gallery__image" src="/assets/11-DYc0grRr.webp" alt="" />
+          <img class="gallery__image" src="/assets/12-B-51DjsS.webp" alt="" />
+          <img class="gallery__image" src="/assets/13-CuBkPjE5.webp" alt="" />
+          <img class="gallery__image" src="/assets/14-BfDi3du4.webp" alt="" />
+          <img class="gallery__image" src="/assets/15-oGBu1vhy.webp" alt="" />
         </article>
         <section class="content">
           <h2 class="content__title">
