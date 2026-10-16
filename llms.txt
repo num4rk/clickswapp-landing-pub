@@ -1,0 +1,16 @@
+# ClickSwapp
+
+> ClickSwapp is the antisocial photo network: a mobile app (iOS and Android) where you take a raw, unedited photo, share it with the community and get a random photo from another user in return. No filters, no gallery imports, no edits after the shot.
+
+## How it works
+
+- Take a photo in the app and submit it to the exchange.
+- Receive a random photo from another user in return; save it to your collection or skip it.
+- Browse and manage your collection in the "My Photos" tab.
+- Every uploaded photo is moderated; users can report or block photos and users.
+
+## Links
+
+- [Terms and Conditions](https://clickswapp.com/terms): rules of use and moderation policy
+- [Privacy Policy](https://clickswapp.com/privacy): what data the app uses and why
+- [Account deletion](https://clickswapp.com/account-deletion): how to delete your account
