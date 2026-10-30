@@ -106,6 +106,11 @@
         .addEventListener("change", updateFavicons);
     </script>
 
+    <script
+      defer
+      src="https://cloud.umami.is/script.js"
+      data-website-id="c214baa2-c4b5-493e-8a87-87f9517d929d"
+    ></script>
     <script type="module" crossorigin src="/assets/index-2jj6357k.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-BPveVnTg.css">
   </head>
@@ -199,6 +204,8 @@
                 href="https://play.google.com/store/apps/details?id=com.zarya17.snap_swapp"
                 target="_blank"
                 aria-label="Google Play"
+                data-umami-event="store_click"
+                data-umami-event-store="google_play"
               >
                 <svg
                   width="180"
@@ -342,6 +349,8 @@
                 href="https://apps.apple.com/us/app/snapswapp/id6742326993"
                 target="_blank"
                 aria-label="App Store"
+                data-umami-event="store_click"
+                data-umami-event-store="app_store"
               >
                 <svg
                   width="186"
@@ -454,6 +463,7 @@
               href="https://ko-fi.com/dmitriig"
               target="_blank"
               rel="noopener"
+              data-umami-event="kofi_click"
             >
               <svg
                 class="kofi__icon"
@@ -542,8 +552,8 @@
         <div class="help">
           <p class="help__title">Questions about ClickSwapp?</p>
           <div class="help__actions">
-            <a class="help__button help__button_primary" href="/support">Visit Support</a>
-            <a class="help__button" href="mailto:support@clickswapp.com">support@clickswapp.com</a>
+            <a class="help__button help__button_primary" href="/support" data-umami-event="support_click">Visit Support</a>
+            <a class="help__button" href="mailto:support@clickswapp.com" data-umami-event="support_email_click">support@clickswapp.com</a>
           </div>
         </div>
         <p class="copyright">Copyright © 2026 Dmitrii Gorshenin. All rights reserved</p>
@@ -552,12 +562,14 @@
             class="docs__link"
             href="/terms"
             target="_blank"
+            data-umami-event="terms_click"
             >Terms and Conditions</a
           ><span class="docs__separator">, </span
           ><a
             class="docs__link"
             href="/privacy"
             target="_blank"
+            data-umami-event="privacy_click"
             >Privacy Policy</a
           ></span
         >
