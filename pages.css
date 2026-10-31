@@ -77,6 +77,15 @@ p { text-wrap: pretty; }
   :root:not([data-theme="dark"]) .theme-toggle__sun { opacity: 0; transform: rotate(-90deg) scale(0.5); }
   :root:not([data-theme="dark"]) .theme-toggle__moon { opacity: 1; transform: none; }
 }
+/* Narrow screens: the theme button leaves the row of links (it did not fit and wrapped
+   onto a line of its own) and sits at the right of the logo's row; the links always take
+   their own row below, or the button would lie over the last one on pages with few links. */
+@media (max-width: 520px) {
+  .nav { position: relative; }
+  .nav__logo { display: flex; align-items: center; min-height: 44px; }
+  .nav__links { flex-basis: 100%; gap: 0 20px; }
+  .theme-toggle { position: absolute; top: 24px; right: -10px; }
+}
 .footer__credit { flex-basis: 100%; font-size: 12px; }
 
 .hero { padding: 72px 0 88px; display: flex; flex-direction: column; gap: 24px; }
